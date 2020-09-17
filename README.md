@@ -29,7 +29,7 @@ For arbitrary geometries these conditions need to be satisfied:
 *Inflow velocity are recorded as U_in and V_in.
 *For inital conditions, set UI, VI, PI, TI.
 
-The binary coding of flags for each cell is mentioned in cfd_ws3_flags.pdf. This helps us distinguish between boundary, obstacle, coupled and fluid cells and specify the geometry and boundary conditions. Matrix to store: flag[i][j]. Option to print the matrix is commented out in the main.c file. Similarly option to print iteration step, dt and loop step as well.
+This helps us distinguish between boundary, obstacle, coupled and fluid cells and specify the geometry and boundary conditions. Matrix to store: flag[i][j]. Option to print the matrix is commented out in the main.c file. Similarly option to print iteration step, dt and loop step as well.
  
 Screenshots of worksheet situations saved in tar file name : screenshots_results.tar.xz
  
