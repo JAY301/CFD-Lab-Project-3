@@ -31,7 +31,7 @@ For arbitrary geometries these conditions need to be satisfied:
 
 This helps us distinguish between boundary, obstacle, coupled and fluid cells and specify the geometry and boundary conditions. Matrix to store: flag[i][j]. Option to print the matrix is commented out in the main.c file. Similarly option to print iteration step, dt and loop step as well.
  
-## Results can be visible in 'Screenshots' folder
+### Results can be visible in 'screenshots' folder
  
 Source Code for any precice functions help: https://github.com/precice/precice/blob/develop/src/precice/SolverInterface.hpp
 
